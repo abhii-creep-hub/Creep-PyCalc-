@@ -33,7 +33,7 @@ while should_accumulate:
     answer = operations[operation_symbol](num1, num2)
     print(f"{num1} {operation_symbol} {num2} = {answer}")
     
-    # Fixed quote usage in this line
+    
     choice = input(f'Type "Y" to continue calculating with {answer}, or "N" to quit/restart: ').lower()
     
     if choice == "y":
